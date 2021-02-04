@@ -47,3 +47,4 @@ class Misura ():
 radice = lambda valore :np.array ([v.radice for v in valore])
 arrotonda = lambda valori,size: np.array ([round(valore,size) for valore in valori])
 percentuale = lambda valori: np.array ([v.percentuale for v in valori])
+valori = lambda valori : np.array([v.misura for v in valori])
